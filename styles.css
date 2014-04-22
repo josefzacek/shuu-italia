@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document */
+/*main structure*/
+#wrapper  {
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+			}
+#footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #CCC;
+	clear: both;
+	width: 1004px;
+	text-align: right;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	position: fixed;
+	bottom: 0px;
+}
+
+#navbar {
+	position: fixed;
+	top: 220px;
+	background-color: #FFF;
+	float: left;
+	width: 190px;
+	height: auto;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15pt;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#navbar ul {
+	list-style-type: none;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+}
+#current {
+	color:#999;
+}
+#wrapper #navbar a:link, a:visited {
+	text-decoration: none;
+	color: #000;
+}
+#wrapper #navbar a:hover {
+	text-decoration: none;
+	color:#603;
+}
+/*main structure shot*/
+
+/*home page*/
+
+/*slideshow*/
+.hometab #slideshow {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 315px;
+}
+.hometab {
+	width: 820px;
+	float: right;
+	height: 1500px;
+	margin-top: 5px;
+}
+.hometab h1,h2 {
+	text-align: center;
+	color: #660033;
+}
+
+.hometab h3{
+	text-align:center;
+}
+
+.hometab .intro {
+	font-size:17px;
+	text-align:center;
+}
+.hometab .table_top {
+	width: 800px;
+	padding-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000;
+}
+.hometab .table_bottom {
+	width: 800px;
+	margin-top: 5px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	margin-bottom: 5px;
+}
+.hometab .table_bottom td, .table_top td {
+	width:70px;
+}
+/*kids page*/
+.kidstab {
+	width: 830px;
+	float: right;
+	height: 1450px;
+	margin-top: 10px;
+}
+.kidstext {
+	width:272px;
+	float:left;
+	height:auto;
+	background-color:#FFFFFF;
+	margin-left: 4px;
+}
+.kidstext p{
+	text-align:center;
+	color:#000;
+}
+.kidstext img {
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #BFBF99;
+}
+.kidstab h1, h2 {
+	text-align: center;
+	color: #660033;
+}
+/*ladies page*/
+.ladiestab {
+	width: 830px;
+	float: right;
+	height: 1450px;
+	margin-top: 10px;
+}
+.ladiestext {
+	width:272px;
+	float:left;
+	height:auto;
+	background-color:#FFFFFF;
+	margin-left: 4px;
+}
+.ladiestext p{
+	text-align:center;
+	color:#000;
+}
+.ladiestext img {
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #BFBF99;
+}
+.ladiestab h1,h2 {
+	text-align: center;
+	color: #660033;
+}
+/*mens page*/
+.menstab {
+	width: 830px;
+	float: right;
+	height: 1450px;
+	margin-top: 10px;
+}
+.menstext {
+	width:272px;
+	float:left;
+	height:auto;
+	margin-left: 4px;
+}
+.menstext p {
+	text-align:center;
+	color:#000;
+}
+.menstext img {
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #BFBF99;
+}
+.menstab h1, h2 {
+	text-align: center;
+	color: #660033;
+}
+
+/*accesories page*/
+.accesoriestab {
+	width: 830px;
+	float: right;
+	height: 1450px;
+	margin-top: 10px;
+}
+.accesoriestab h1, h2 {
+	text-align: center;
+	color: #660033;
+}
+.accesoriestext {
+	width:272px;
+	float:left;
+	height:auto;
+	background-color:#FFFFFF;
+	margin-left: 4px;
+}
+.accesoriestext p{
+	text-align:center;
+	color:#000;
+}
+.accesoriestext img {
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #BFBF99;
+}
+/*contact page*/
+.contacttab {
+	width: 820px;
+	float: right;
+	height: auto;
+	margin-top: 10px;
+}
+.contacttab h1,h2 {
+	text-align:center;
+	color: #660033;	
+}
+.contacttab .map {
+	margin-top: 10px;
+	margin-left: 25px;
+	border: thin solid #BFBF9B;
+	width: 766px;
+	height: 395px;
+	margin-bottom: 20px;
+}
+.contacttab .contact_details {
+	width:766px;
+	height:250px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.contacttab .address {
+	width: 250px;
+	height: auto;
+	float: left;
+}
+.contacttab .opening_hours {
+	float: left;
+	width: 250px;
+	padding-left: 20px;
+}
+.contacttab .facebook {
+	float: left;
+	width: 150px;
+	padding-left: 80px;
+}
+#contact_form {
+	clear:both;
+	margin-right:auto;
+	margin-left:auto;
+	width: 766px;
+	height:400px;
+}
+.message {
+	float: right;
+}
+.cont_1 {
+	float: left;
+	width:300px;
+}
+.contacttab .contact_details .facebook img {
+	margin-left: 35px;
+}
+.contacttab #contact_form form .message .button {
+	float: right;
+}
+.contacttab #contact_form form .cont_1 .red {
+	color: #F00;
+}
